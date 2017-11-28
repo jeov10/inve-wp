@@ -7,7 +7,7 @@ Author URI: Alchimia
 Version: 1.0
 */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -21,8 +21,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -33,7 +33,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -251,13 +251,22 @@ padding-bottom: 8px;
   position: absolute;
 }
 
+.menu ul li a {
+  display: block;
+	color: white;
+	text-decoration: none;
+}
+
 .menu ul li {
   margin-bottom: 16px;
   margin-right: 3px;
   padding-top: 8px;
 }
-.menu ul li a {
-  display: block;
+
+.menu ul {
+  list-style-type: none;
+	list-style: none;
+	list-style-image: none;
 }
 
 .menu__items {
@@ -486,6 +495,17 @@ div.menu__items a:active {
   width: 100%;
 }
 
+div.custom-menu-class ul {
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+}
+div.custom-menu-class li {
+    padding: 20px;
+    display: inline;
+		background: white;
+}
+
 @media screen and (min-width: 750px) {
   .box-spot__container {
     width: 48%;
@@ -582,7 +602,19 @@ div.menu__items a:active {
 
   .menu ul li {
     display: inline;
+
   }
+
+	.menu ul li a:hover {
+	  color: var(--color-complementary);
+	}
+
+	.menu ul li:hover {
+		border-style: solid;
+	  border-top-width: 1px;
+	  border-top-color: var(--color-complementary);
+	  color: var(--color-complementary);
+	}
 
   .menu ul li a {
     display: unset;
