@@ -244,6 +244,24 @@ padding-bottom: 8px;
   margin-right: 16px;
 }
 
+.menu__footer {
+  width: 25%;
+}
+
+#menu-recursos {
+	display: block !important;
+	background-color: red;
+}
+
+.menu__footer ul li a{
+	color: var(--color-primary);
+	text-decoration: none;
+}
+
+.menu__footer ul li{
+	margin-top: 0.5rem;
+}
+
 .menu {
   display: none;
   width: 100%;
@@ -251,16 +269,23 @@ padding-bottom: 8px;
   position: absolute;
 }
 
+.menu ul li a:active {
+	border-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--color-complementary);
+  color: var(--color-complementary);
+	font-weight: 900;
+
+}
+
 .menu ul li a {
   display: block;
-	color: white;
+	color: var(--color-white);
 	text-decoration: none;
 }
 
 .menu ul li {
-  margin-bottom: 16px;
-  margin-right: 3px;
-  padding-top: 8px;
+	font-weight: 900;
 }
 
 .menu ul {
@@ -570,6 +595,7 @@ div.custom-menu-class li {
   .header {
     display: flex;
     justify-content: space-between;
+		padding-top: 0px;
   }
 
   .header__container {
@@ -585,12 +611,6 @@ div.custom-menu-class li {
     width: auto;
   }
 
-  .menu {
-    display: inline;
-    width: auto;
-    position: unset;
-  }
-
   .nav-bar {
     width: 18%;
     justify-content: left;
@@ -600,9 +620,16 @@ div.custom-menu-class li {
     display: none;
   }
 
+	.menu {
+		display: inline-flex;
+		width: auto;
+		position: unset;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+
   .menu ul li {
     display: inline;
-
   }
 
 	.menu ul li a:hover {

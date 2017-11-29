@@ -3,7 +3,9 @@ function register_my_menus() {
   register_nav_menus(
     array(
       'header-menu' => __( 'Header Menu' ),
-      'extra-menu' => __( 'Extra Menu' )
+      'recursos-menu' => __( 'Menu de Recursos' ),
+      'soporte-menu' => __( 'Menu de Soporte' ),
+      'inve-menu' => __( 'Menu de inverspot.mx' )
     )
   );
 }

@@ -35,6 +35,7 @@
     <header class="u-bg-primary header">
       <div class="header__container">
         <div class="nav-bar">
+        <a href="http://alchimia.mx/home">
           <div class="brand">
             <div class="brand-image">
               <img class="brand__image--primary" alt="Inverspot" src="http://inverspot.apps-1and1.com/wp-content/uploads/2017/11/inverspotblanco.png">
@@ -43,6 +44,7 @@
               <p class="u-color-white u-fs-super-small">Tu punto de inversión inmobiliario</p>
             </div>
           </div>
+        </a>
           <button type="button" class="nav-bar__collapsed u-bg-primary u-color-white" data-toggle="collapse" data-target="#navbar-1">
             <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
           </button>

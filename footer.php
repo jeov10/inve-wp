@@ -20,30 +20,17 @@
             </address>
           </div>
         </div>
-        <div class="brand-sitemap__item">
-          <ul class="link-list">
-            <li class="link-list__title"><p class="u-color-primary u-fw-bold">Recursos</p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">Solicitud de registro</a></p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">Políticas de privacidad</a></p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">Brochure informativo</a></p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">¿Cómo invertir?</a></p></li>
-          </ul>
+        <div class="menu__footer">
+          <p class="u-fw-bold u-color-primary">Recursos</p>
+          <?php wp_nav_menu( array( 'theme_location' => 'recursos-menu' ) ); ?>
         </div>
-        <div class="brand-sitemap__item">
-          <ul class="link-list">
-            <li class="link-list__title"><p class="u-color-primary u-fw-bold">Soporte</p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">Nosotros</a></p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">FAQ's</a></p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">Informes / Agendar cita</a></p></li>
-          </ul>
+        <div class="menu__footer">
+          <p class="u-fw-bold u-color-primary">Recursos</p>
+          <?php wp_nav_menu( array( 'theme_location' => 'soporte-menu' ) ); ?>
         </div>
-        <div class="brand-sitemap__item">
-          <ul class="link-list">
-            <li class="link-list__title"><p class="u-color-primary u-fw-bold">Inverspot.mx</p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">Aviso de privacidad</a></p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">Contacto</a></p></li>
-            <li class="link-list__item"><p class="u-color-primary"><a href="#" class="link-item">Únete al equipo</a></p></li>
-          </ul>
+        <div class="menu__footer">
+          <p class="u-fw-bold u-color-primary">Recursos</p>
+          <?php wp_nav_menu( array( 'theme_location' => 'inve-menu' ) ); ?>
         </div>
       </div>
       <div class="footer__notice">
