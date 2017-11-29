@@ -298,16 +298,11 @@ padding-bottom: 8px;
   display: block;
 	color: var(--color-white);
 	text-decoration: none;
-}
-
-.menu ul li {
 	font-weight: 900;
 }
 
-.menu ul {
-  list-style-type: none;
-	list-style: none;
-	list-style-image: none;
+.menu ul li {
+	margin-bottom: 16px;
 }
 
 .menu__items {
