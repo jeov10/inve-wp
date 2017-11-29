@@ -226,6 +226,10 @@ padding-bottom: 8px;
   margin: auto;
 }
 
+.brand {
+	margin-top: 8px;
+}
+
 .brand-image {
   width: 100%;
 }
@@ -258,6 +262,11 @@ padding-bottom: 8px;
 
 #menu-inverspot-mx {
 	display: block !important;
+}
+
+.menu__footer {
+	height: 96px;
+	margin-bottom: 32px;
 }
 
 .menu__footer ul li a{
@@ -491,7 +500,6 @@ div.menu__items a:active {
 }
 
 .footer__notice {
-  margin-top: 32px;
   margin-bottom: 16px;
 
 }
@@ -537,6 +545,8 @@ div.custom-menu-class li {
     display: inline;
 		background: white;
 }
+
+
 
 @media screen and (min-width: 750px) {
   .box-spot__container {
@@ -659,10 +669,15 @@ div.custom-menu-class li {
     display: flex;
   }
 
+	.menu__footer {
+		height: auto;
+		width: auto;
+	}
+
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1265px) {
   .menu ul li {
-    margin-right: 8px;
+    margin-left: 16px;
   }
 }
