@@ -17,11 +17,8 @@ Template Name: Home
  */
 
 get_header(); ?>
-
 <div id="primary" class="content-area">
 <main id="main" class="site-main" role="main">
-
-
 <section class="slider-main">
   <p class="h1 text-aling-center">a slider goes here </p>
 </section>
@@ -147,5 +144,4 @@ get_header(); ?>
 </section>
 </main><!-- .site-main -->
 </div><!-- .content-area -->
-
 <?php get_footer(); ?>

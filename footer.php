@@ -22,20 +22,17 @@
         </div>
         <div class="brand-sitemap__item">
           <div class="menu__footer">
-            <p class="u-fw-bold u-color-primary">Recursos</p>
-            <?php wp_nav_menu( array( 'theme_location' => 'recursos-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
+            <p class="u-fw-bold u-color-primary">Recursos</p><?php wp_nav_menu( array( 'theme_location' => 'recursos-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
           </div>
         </div>
         <div class="brand-sitemap__item">
           <div class="menu__footer">
-            <p class="u-fw-bold u-color-primary">Soporte</p>
-            <?php wp_nav_menu( array( 'theme_location' => 'soporte-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
+            <p class="u-fw-bold u-color-primary">Soporte</p><?php wp_nav_menu( array( 'theme_location' => 'soporte-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
           </div>
         </div>
         <div class="brand-sitemap__item">
           <div class="menu__footer">
-            <p class="u-fw-bold u-color-primary">Inverspot.mx</p>
-            <?php wp_nav_menu( array( 'theme_location' => 'inve-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
+            <p class="u-fw-bold u-color-primary">Inverspot.mx</p><?php wp_nav_menu( array( 'theme_location' => 'inve-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
           </div>
         </div>
       </div>
@@ -51,7 +48,6 @@
   </section>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="menu.js"></script>
-	<?php wp_footer(); ?>
+<script src="menu.js"></script><?php wp_footer(); ?>
 </body>
 </html>
