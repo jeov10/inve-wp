@@ -9,8 +9,6 @@
   <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>"/>
   <?php wp_enqueue_style( "topbaricons", "http://alchimia.mx/wp-content/themes/inverspot/style/font-awesome/css/font-awesome.min.css" ); ?>
-  <?php wp_enqueue_script( "jquery", "https://code.jquery.com/jquery-3.2.1.min.js" ); ?>
-  <?php wp_enqueue_script( "menuresponsive", "http://alchimia.mx/wp-content/themes/inverspot/menu.js" ); ?>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
   <?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
   <?php wp_head(); ?>
@@ -52,7 +50,7 @@
       </div>
       <div class="menu u-bg-primary">
         <div class="menu__container">
-          <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+          <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'menu__items', 'menu_class' => '' ) ); ?>
         </div>
       </div>
     </header>
