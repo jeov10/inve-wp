@@ -25,11 +25,11 @@
           <?php wp_nav_menu( array( 'theme_location' => 'recursos-menu' ) ); ?>
         </div>
         <div class="menu__footer">
-          <p class="u-fw-bold u-color-primary">Recursos</p>
+          <p class="u-fw-bold u-color-primary">Soporte</p>
           <?php wp_nav_menu( array( 'theme_location' => 'soporte-menu' ) ); ?>
         </div>
         <div class="menu__footer">
-          <p class="u-fw-bold u-color-primary">Recursos</p>
+          <p class="u-fw-bold u-color-primary">Inverspot.mx</p>
           <?php wp_nav_menu( array( 'theme_location' => 'inve-menu' ) ); ?>
         </div>
       </div>

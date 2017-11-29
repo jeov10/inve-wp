@@ -18,6 +18,6 @@ Template Name: Error
 
 get_header(); ?>
 <section class="slider-main">
-  <p class="h1 text-aling-center u-color-accent">Ups! Not avaible yet. Sorry!</p>
+  <p class="h1 text-aling-center u-color-accent u-bg-light">Ups! Not avaible yet. Sorry!</p>
 </section>
 <?php get_footer(); ?>

@@ -250,7 +250,14 @@ padding-bottom: 8px;
 
 #menu-recursos {
 	display: block !important;
-	background-color: red;
+}
+
+#menu-soporte {
+	display: block !important;
+}
+
+#menu-inverspot-mx {
+	display: block !important;
 }
 
 .menu__footer ul li a{
