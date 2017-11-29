@@ -268,13 +268,14 @@ padding-bottom: 8px;
   position: absolute;
 }
 
-.menu ul li a:active {
+#menu-principal li.current-menu-item {
 	border-style: solid;
   border-top-width: 1px;
   border-top-color: var(--color-complementary);
-  color: var(--color-complementary);
-	font-weight: 900;
+}
 
+#menu-principal li.current-menu-item a{
+	color: var(--color-complementary);
 }
 
 .menu ul li a {
