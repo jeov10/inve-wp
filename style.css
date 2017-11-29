@@ -249,24 +249,7 @@ padding-bottom: 8px;
 }
 
 .menu__footer {
-  width: 25%;
-}
-
-#menu-recursos {
-	display: block !important;
-}
-
-#menu-soporte {
-	display: block !important;
-}
-
-#menu-inverspot-mx {
-	display: block !important;
-}
-
-.menu__footer {
-	height: 96px;
-	margin-bottom: 32px;
+  width: 100%;
 }
 
 .menu__footer ul li a{

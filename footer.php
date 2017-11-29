@@ -23,19 +23,19 @@
         <div class="brand-sitemap__item">
           <div class="menu__footer">
             <p class="u-fw-bold u-color-primary">Recursos</p>
-            <?php wp_nav_menu( array( 'theme_location' => 'recursos-menu' ) ); ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'recursos-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
           </div>
         </div>
         <div class="brand-sitemap__item">
           <div class="menu__footer">
             <p class="u-fw-bold u-color-primary">Soporte</p>
-            <?php wp_nav_menu( array( 'theme_location' => 'soporte-menu' ) ); ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'soporte-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
           </div>
         </div>
         <div class="brand-sitemap__item">
           <div class="menu__footer">
             <p class="u-fw-bold u-color-primary">Inverspot.mx</p>
-            <?php wp_nav_menu( array( 'theme_location' => 'inve-menu' ) ); ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'inve-menu',  'container_class' => '', 'menu_class' => ''  ) ); ?>
           </div>
         </div>
       </div>
