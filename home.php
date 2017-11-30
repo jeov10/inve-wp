@@ -129,7 +129,7 @@ get_header(); ?>
         <p class="h3"><a href="#" class="link-item u-color-white">Ir al sitio</a></p>
       </div>
     </div>
-    <div class="box-spot__container top-border target__top-border_blue u-bg-dark-gray">
+    <div class="box-spot__container top-border target__top-border_blue u-bg-darkgray">
       <div class="box-spot__spot-info">
         <p class=" h1 u-fw-bold u-color-white text-aling-right">Premiumspot</p>
       </div>
