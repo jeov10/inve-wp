@@ -583,6 +583,10 @@ div.custom-menu-class li {
 	margin-bottom: 32px;
 }
 
+.--u-margin-top {
+	margin-top: 32px;
+}
+
 .--u-margin-left {
 	margin-left: 32px;
 }
@@ -607,8 +611,18 @@ div.custom-menu-class li {
 	list-style: unset;
 }
 
+.form-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .full-contact-form {
-	width: 60%;
+	width: 100%;
+}
+
+.address-container{
+	width: 100%
 }
 
 .--u-border-radius__post-it {
@@ -636,10 +650,6 @@ div.custom-menu-class li {
 	-moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
 	transition: all 1s ease;
-}
-
-.--width-postit-item {
-
 }
 
 .post-it__item:hover {
@@ -708,6 +718,30 @@ div.custom-menu-class li {
 	height: 100%!important;
 }
 
+.u-border-bottom {
+	border-bottom: solid 1px;
+	border-color: lightgray;
+}
+
+.map {
+	width: 100%
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 50% !important;
+}
+
 @media screen and (min-width: 750px) {
   .box-spot__container {
     width: 48%;
@@ -754,7 +788,6 @@ div.custom-menu-class li {
 
 	.box-card {
 	width: 40%;
-
 	}
 
 	.box-card__container {
@@ -880,6 +913,21 @@ div.custom-menu-class li {
 
 	.--width-postit-item {
 		width: 22%;
+	}
+	.form-container {
+		width: 100%;
+		display: flex;
+		flex-wrap: unset;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	.full-contact-form {
+		width: 65%;
+	}
+
+	.address-container{
+		width: 30%
 	}
 
 }
