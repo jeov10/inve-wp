@@ -139,25 +139,27 @@ Todo lo anterior podría afectar tu inversión de manera parcial o total dependi
       <p class="u-color-white u-fw-bold h1 --u-padding-top-bottom">Contáctanos</p>
     </div>
   </section>
-  <section class="box__description --u-margin-bottom ">
-    <div class="full-contact-form slider-main">
-      <p class="text-aling-center h1 u-color-white">A form goes here</p>
-    </div>
-    <div class="box__one-third">
-      <div class="address">
-        <p class="h2 u-color-accent u-fw-bold text-aling-left">Dirección</p>
-        <address class="text-aling-left u-color-primary">
-          <br>
-          <p class="u-fw-bold">Inverspot</p>
-          <p>Avenida de las Palmas 1320</p>
-          <p>Lomas de Chapultepec, CDMX, México</p>
-          <p>Teléfono: 01 (55) 8000 6555</p>
-          <br>
-          <br>
-          <p class="u-fw-bold">Correo Electrónico</p>
-          <p><a href="#" class="link-item u-color-primary">hola@inverspot.mx</a></p>
-        </address>
+  <div class="container">
+    <section class="form-container --u-margin-bottom --u-margin-top">
+      <div class="full-contact-form slider-main">
+        <p class="text-aling-center h1 u-color-white">A form goes here</p>
       </div>
-    </div>
-  </section>
+      <div class="address-container">
+        <div class="address">
+          <p class="h2 u-color-accent u-fw-bold text-aling-left u-border-bottom">Dirección</p>
+          <address class="text-aling-left u-color-primary">
+            <br>
+            <p class="u-fw-bold">Inverspot</p>
+            <p>Avenida de las Palmas 1320</p>
+            <p>Lomas de Chapultepec, CDMX, México</p>
+            <p>Teléfono: 01 (55) 8000 6555</p>
+            <br>
+            <br>
+            <p class="u-fw-bold">Correo Electrónico</p>
+            <p><a href="#" class="link-item u-color-primary">hola@inverspot.mx</a></p>
+          </address>
+        </div>
+      </div>
+    </section>
+  </div>
 <?php get_footer(); ?>

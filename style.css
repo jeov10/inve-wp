@@ -730,7 +730,7 @@ div.custom-menu-class li {
 .google-maps {
   position: relative;
   padding-bottom: 75%;
-  height: 0;
+  height: 100%;
   overflow: hidden;
 }
 
