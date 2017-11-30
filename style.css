@@ -335,6 +335,12 @@ div.menu__items a:hover {
   text-align: center;
 }
 
+.box__notice {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .box-spot {
   width: 100%;
   display: flex;
@@ -723,6 +729,11 @@ div.custom-menu-class li {
 	border-color: lightgray;
 }
 
+.u-border-top {
+	border-top: solid 1px;
+	border-color: lightgray;
+}
+
 .map {
 	width: 100%
 }
@@ -741,6 +752,32 @@ div.custom-menu-class li {
   width: 100% !important;
   height: 50% !important;
 }
+
+.spoiler__border {
+	border: solid 1px;
+	border-color: var(--color-primary);
+}
+
+.spoiler__title_button {
+	width: 100%
+}
+
+.spoiler__content {
+	display: none;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.spoiler__content_margin {
+	margin: 8px;
+}
+
+#spoiler {
+	display: none;
+}
+
 
 @media screen and (min-width: 750px) {
   .box-spot__container {

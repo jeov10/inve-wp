@@ -18,3 +18,18 @@ function main() {
       }
   } );
 };
+
+
+function buttonCollapsed () {
+  $('.spoiler__title').click(function() {
+    $('.spoiler__content').toggle();
+  });
+};
+
+function buttonCollapsedA () {
+  if(document.getElementById('spoiler') .style.display=='none') {
+    document.getElementById('spoiler') .style.display=''
+  } else {
+    document.getElementById('spoiler') .style.display='none'
+  }
+}
