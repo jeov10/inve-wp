@@ -1284,6 +1284,18 @@ div.custom-menu-class li {
 		width: 25%;
 	}
 
+	.coach-item {
+		flex-direction: row;
+	}
+
+	.coach-img-container {
+		width: 50%;
+	}
+
+	.coach-info {
+		width: 50%;	
+	}
+
 }
 
 @media screen and (min-width: 1285px) {
