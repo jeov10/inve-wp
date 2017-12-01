@@ -18,7 +18,7 @@ Template Name: Política de privacidad
 
 get_header(); ?>
 
-  <section>
+  <section class="--u-margin-bottom">
     <div class="container">
       <div class="box__description u-border-bottom">
         <p class="u-color-primary text-aling-center subscribe-form h1 --u-margin-bottom" >Aviso de confidencialidad</p>
