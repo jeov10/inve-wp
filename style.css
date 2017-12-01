@@ -585,6 +585,10 @@ div.custom-menu-class li {
 	color: black;
 }
 
+.--u-margin-title {
+	margin: 32px;
+}
+
 .--u-margin-bottom {
 	margin-bottom: 32px;
 }
@@ -738,19 +742,12 @@ div.custom-menu-class li {
 	width: 100%
 }
 
-.google-maps {
-  position: relative;
-  padding-bottom: 75%;
-  height: 100%;
-  overflow: hidden;
-}
 
 .google-maps iframe {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100% !important;
-  height: 50% !important;
+  height: 400px !important;
 }
 
 .spoiler__border {
@@ -778,6 +775,24 @@ div.custom-menu-class li {
 	display: none;
 }
 
+.box {
+	width: auto;
+}
+
+.video-box {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.video-box__item {
+	width: 100%;
+	margin: auto;
+}
+
+.video-item {
+	width: 90%;
+}
 
 @media screen and (min-width: 750px) {
   .box-spot__container {
@@ -965,6 +980,18 @@ div.custom-menu-class li {
 
 	.address-container{
 		width: 30%
+	}
+
+	.info-icons__item {
+		width: 22%;
+	}
+	.info-icons__container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.video-box {
+		flex-direction: row;
 	}
 
 }
