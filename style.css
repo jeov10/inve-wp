@@ -1009,6 +1009,44 @@ div.custom-menu-class li {
 	flex-wrap: wrap;
 }
 
+.coach-container {
+	width: 100%;
+}
+
+.coach-info {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.coach-img {
+	width: 200px;
+}
+
+.coach-item {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.coach-img__padding-right {
+	padding-right: 24px;
+}
+
+.coach-info__padding-left {
+	padding-left: 24px;
+}
+
+.coach-info__border-left {
+	border-left: 3px solid red;
+}
+
+.coach-img-container {
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
+
 
 @media screen and (min-width: 750px) {
   .box-spot__container {
@@ -1103,6 +1141,10 @@ div.custom-menu-class li {
 	.icon-info-box {
 		display: flex;
 		flex-wrap: wrap;
+	}
+
+	.coach-container {
+		width: 50%;
 	}
 
 }
