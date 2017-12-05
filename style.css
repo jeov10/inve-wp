@@ -180,7 +180,7 @@ body {
   color: var(--color-blue)
 }
 
-.u-bg-darkgray {
+.u-color-darkgray {
 	color: var(--color-darkgray)
 }
 
@@ -1087,6 +1087,101 @@ div.custom-menu-class li {
 		height: 100%;
 }
 
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+
+.article-item__title  {
+	padding: 8px;
+}
+
+.article-item__sumary {
+	padding: 8px;
+}
+
+.article-item {
+	position: relative;
+}
+
+.mask {
+	background-color: rgba(170,170,170,0.9);
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 0;
+}
+
+.mask__button-position {
+	position: relative;
+	top: 50%;
+	left: 25%;
+}
+
+.static-bg-div  {
+    background-image: url("http://wp.inverspot.mx/wp-content/uploads/2017/12/join.png");
+    background-repeat: no-repeat;
+		background-position: center;
+		background-size: 256%;
+		padding-bottom: 128px;
+		height: 300px;
+}
+
+.top-information {
+	background-color: rgba(255, 255, 255, 0.2);
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 24px;
+}
+
+.top-information__img-left {
+	width: 10%;
+	margin: auto;
+}
+
+.top-information__img-right {
+	width: 30%;
+	margin: auto;
+}
+
+.top-information__text {
+	width: 60%;
+	font-size: 11px;
+	margin: auto;
+}
+
+.img-cup {
+	width: 56%;
+	position: relative;
+	left: 38%;
+	bottom: -204px;
+}
+
+.bottom-info {
+	width: 75%;
+}
+
+@media screen and (min-width: 450px) {
+	.static-bg-div  {
+		background-size: 184%;
+	}
+	.bottom-info {
+			width: 60%;
+		}
+
+	.img-cup {
+		width: 40%;
+		left: 48%;
+		bottom: -229px;
+	}
+
+	.top-information__text {
+		width: 60%;
+		font-size: 16px;
+	}
+
+}
+
 @media screen and (min-width: 750px) {
   .box-spot__container {
     width: 48%;
@@ -1203,6 +1298,20 @@ div.custom-menu-class li {
 
 	.--u-office__info-ml {
 		margin-left: 24px;
+	}
+
+	.static-bg-div {
+    background-size: 112%;
+	}
+
+	.img-cup {
+    left: 56%;
+    bottom: -180px;
+	}
+
+	.top-information__text {
+		width: 60%;
+		font-size: 24px;
 	}
 
 }
