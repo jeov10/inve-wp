@@ -1152,19 +1152,23 @@ div.custom-menu-class li {
 
 .img-responsive {
 	width: 100%;
-	height: auto;
 }
 
-.article-item__title  {
-	padding: 8px;
-}
-
-.article-item__sumary {
-	padding: 8px;
+.article-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .article-item {
 	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.article-item__info  {
+	padding: 8px;
 }
 
 .mask {
@@ -1177,7 +1181,7 @@ div.custom-menu-class li {
 	opacity: 0.0;
 }
 
-.article-container:hover .mask {
+.article-item:hover .mask {
 	width: 100%;
 	opacity: 1;
 }
@@ -1461,6 +1465,12 @@ div.custom-menu-class li {
 		font-size: 24px;
 	}
 
+	.article-item {
+		position: relative;
+		width: 48%;
+		height: auto;
+	}
+
 }
 
 @media screen and (min-width: 960px) {
@@ -1642,4 +1652,10 @@ div.custom-menu-class li {
   .menu ul li {
     margin-left: 16px;
   }
+
+	.article-item {
+		position: relative;
+		width: 23%;
+		height: auto;
+	}
 }
