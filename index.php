@@ -1,12 +1,8 @@
 <?php get_header(); ?>
-
-
   <section id="main">
-
-
-
-  </section> <!-- Fin de main -->
-
-
-
-  <?php get_footer(); ?>
+    <?php
+      global $post;
+      echo apply_filters('the_content', $post->post_content);
+    ?>
+  </section>
+<?php get_footer(); ?>
