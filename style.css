@@ -236,7 +236,7 @@ b {
   display: flex;
   justify-content: space-between;
   padding-top: 8px;
-padding-bottom: 8px;
+	padding-bottom: 8px;
 }
 
 .nav-bar {
@@ -1256,11 +1256,11 @@ div.custom-menu-class li {
 }
 
 .is-banner__img .u-bg-img-community {
-	background-image: url(/img/1.png);
+	background-image: url(/wp-content/themes/is-theme/img/1.png);
 }
 
 .is-banner__img .u-bg-img-yay {
-	background-image: url(/img/2.png);
+	background-image: url(/wp-content/themes/is-theme/img/2.png);
 }
 
 .is-mini-icons {
@@ -1276,15 +1276,15 @@ div.custom-menu-class li {
 }
 
 .is-mini-icons__icon.is-mini-icons__icon--tw {
-	background-image: url(/img/Twitter.png);
+	background-image: url(/wp-content/themes/is-theme/img/Twitter.png);
 }
 
 .is-mini-icons__icon.is-mini-icons__icon--fb {
-	background-image: url(/img/Facebook.png);
+	background-image: url(/wp-content/themes/is-theme/img/Facebook.png);
 }
 
 .is-mini-icons__icon.is-mini-icons__icon--li {
-	background-image: url(/img/Linkedin.png);
+	background-image: url(/wp-content/themes/is-theme/img/Linkedin.png);
 }
 
 .is-mini-icons__icon.is-mini-icons__icon--primary-dot {
@@ -1293,7 +1293,18 @@ div.custom-menu-class li {
 }
 
 .is-mini-icons__icon.is-mini-icons__icon--yt {
-	background-image: url(/img/Youtube.png);
+	background-image: url(/wp-content/themes/is-theme/img/Youtube.png);
+}
+
+.is-partners {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.is-partners__img {
+	width: 240px;
+	margin-bottom: 32px;
 }
 
 /*
@@ -1471,6 +1482,22 @@ div.custom-menu-class li {
 		height: auto;
 	}
 
+	.is-partners {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.is-partners__img {
+		height: 64px;
+		width: auto;
+	}
+
+}
+
+@media screen (max-width: 960px) {
+	.hide-md {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 960px) {
