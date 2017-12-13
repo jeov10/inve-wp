@@ -62,7 +62,7 @@ table {
   src: url(fonts/AvenirNext-Regular.ttf), url(fonts/AvenirNext-Regular.eot), url(fonts/AvenirNext-Regular.otf), url(fonts/AvenirNext-Regular.svg), url(fonts/AvenirNext-Regular.woff);
 }
 
-html {
+html, .user-entry p {
   font-family: 'Avenirnext';
 }
 
@@ -70,29 +70,59 @@ body {
 	line-height: 1.2;
 }
 
-.h1 {
+.hero-text {
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.h1, .user-entry h1{
   font-size: 32px;
+	line-height: 40px;
 }
 
-.h2 {
+.h2, .user-entry h2 {
   font-size: 24px;
+	line-height: 32px;
 }
 
-.h3 {
+.h3, .user-entry h3 {
   font-size: 16px;
+	line-height: 24px;
 }
 
-.h4 {
+.h4, .user-entry h4 {
   font-size: 8px;
+	line-height: 12px;
 }
 
-.h5 {
+.h5, .user-entry h5 {
   font-size: 4px;
+}
+
+b, .user-entry strong {
+	font-family: Avenirnext-bold;
+}
+
+.user-entry ul li {
+	color: var(--color-blue);
+}
+
+.user-entry ol li {
+	color: var(--color-blue);
+}
+
+.user-entry blockquote{
+	color: var(--color-blue);
+}
+
+.user-entry {
+
 }
 
 .u-fs-super-small {
   font-size: 11px;
 }
+
 
 .u-fw-bold {
   font-weight: 900;
@@ -834,13 +864,8 @@ div.custom-menu-class li {
 .hs-responsive-embed-youtube {
 	position: relative;
 	padding-top: 25px;
-
-}
-
-.hs-responsive-embed-youtube iframe {
-	position: absolute;
-	width: 100%!important;
-	height: 100%!important;
+	width: 350px;
+  height: 200px;
 }
 
 .u-border-bottom {
@@ -1398,6 +1423,10 @@ div.custom-menu-class li {
 
 	.icon-info {
 		width: 100%;
+	}
+	.hs-responsive-embed-youtube {
+		width: 550px;
+		height: 330px;
 	}
 
 }
