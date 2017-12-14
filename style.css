@@ -1141,6 +1141,13 @@ div.custom-menu-class li {
     margin-bottom: 32px;
 }
 
+.cards-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 @media screen and (min-width: 450px) {
 	.static-bg-div  {
 		background-size: 184%;
@@ -1310,6 +1317,10 @@ div.custom-menu-class li {
 	.is-partners__img {
     height: 64px;
     width: auto;
+	}
+
+	.card-item {
+		width: 45%;
 	}
 
 }
@@ -1497,6 +1508,10 @@ div.custom-menu-class li {
 	}
 	.coach-container {
 		width: 50%;
+	}
+
+	.card-item {
+		width: 33%;
 	}
 
 }
