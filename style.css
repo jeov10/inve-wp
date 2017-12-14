@@ -709,6 +709,13 @@ div.custom-menu-class li {
 	width: 100%
 }
 
+.address-form {
+	margin-top: 16px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .post-it--border-radius-primary {
 	border-radius: 7px;
 	border: 1px solid;
@@ -808,7 +815,14 @@ div.custom-menu-class li {
 }
 
 .map {
-	width: 100%
+	width: 100%;
+	margin-top: 16px;
+}
+
+.address {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .google-maps iframe {
@@ -1416,9 +1430,11 @@ div.custom-menu-class li {
 		width: 65%;
 	}
 
-	.address-container{
-		width: 30%
-	}
+	.address-container {
+    width: 30%;
+    margin-left: 16px;
+    margin-top: 0px;
+}
 
 	.info-icons__item {
 		width: 22%;
