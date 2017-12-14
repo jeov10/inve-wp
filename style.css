@@ -1323,6 +1323,10 @@ div.custom-menu-class li {
 		width: 45%;
 	}
 
+	.cards-container {
+		justify-content: space-around;
+	}
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -1512,6 +1516,11 @@ div.custom-menu-class li {
 
 	.card-item {
 		width: 33%;
+	}
+
+	.cards-container {
+		justify-content: space-between;
+		;
 	}
 
 }
