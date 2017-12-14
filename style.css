@@ -108,11 +108,14 @@ b, .u-fw-bold, .user-entry strong {
 }
 
 .user-entry ul li {
-	color: var(--color-blue);
+	color: var(--color-primary);
+	list-style: inside;
+
 }
 
 .user-entry ol li {
-	color: var(--color-blue);
+	color: var(--color-primary);
+	list-style: inside;
 }
 
 .user-entry blockquote{
