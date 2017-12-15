@@ -1151,6 +1151,12 @@ div.custom-menu-class li {
 	justify-content: space-between;
 }
 
+.mask__button {
+	position: relative;
+	top: 45%;
+	left: 35%;
+}
+
 @media screen and (min-width: 450px) {
 	.static-bg-div  {
 		background-size: 184%;
